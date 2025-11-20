@@ -1,0 +1,18 @@
+Package: fastlm625
+Title: Fast Linear Regression Using QR and Cholesky Decomposition
+Version: 1.0.0
+Authors@R: 
+    person("Student", email = "student@example.com", role = c("aut", "cre"))
+Description: Fast linear regression using QR and Cholesky decomposition with formula interface and summary, print, and predict methods.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: 
+    R (>= 3.5.0)
+Imports: 
+    stats
+Suggests: 
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+RoxygenNote: 7.3.3
